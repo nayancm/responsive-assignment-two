@@ -7,13 +7,11 @@
 .penguin-menu a{
     margin-right: 2em;
 }
-.penguin-hero-left img{
-    width: 300px;
-}
 .brand-title{
     font-size: 5em;
     font-family: 'Bebas Neue', cursive;
 }
+/* =========================================== text highlight */
 .light-orange-color{
     color:  #FA804C;
 }
@@ -28,15 +26,11 @@
     padding: 15px 30px;
     border-radius: 10px;
 }
-.fas{
+.button-icon{
     color: white;
 }
-
-
-
-
-
-.casual-card .one-single-card{
+/* ============================== Shoe cards */
+.shoes-card .one-single-card{
     border: 0px;
     border-radius: 15px;
 }
@@ -53,9 +47,112 @@
     font-size: 3em;
     font-family: 'Bebas Neue', cursive;
 }
-.casual-card .casual-footer{
+.exp-title h5{
+    font-size: 1.5em;
+}
+.shoes-card .casual-footer{
     border: 0;
     background-color:white;
 }
+/* ================================ Explore section */
+.explore-logo img{
+    width: 60%;
+    margin: 20px;
+}
 
+.explore-content .exp-card{
+    border: 0;
+    border-radius: 20px !important;
+}
+.explore-content-right img{
+    width: 80%;
+    margin: 50px;
+}
+
+
+
+
+
+/* ============================== Extra part here */
+
+/* frame style start here=================================== */
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
+    .frame{
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        position: relative;
+    }
+    .frame :hover{
+        width: 200px;
+        height: 200px;
+        background-color: rgba(238, 207, 31, 0.5);
+    }
+    .frame img{
+        width: 300px;
+        height: 200px;
+    }
+    .frame h2{
+        position: absolute;
+ 
+    }
+    /* frame style end here=================================== */
+    
+    
+    /* photo style start here=================================== */
+    .photo-frame{
+        width: 300px;
+        height: 200px;
+        border: 5px solid goldenrod;
+        border-radius: 10px;
+        position: relative;
+        margin-left: auto;
+    }
+    .photo-frame .photo img{
+        width: 300px;
+        height: 200px;
+    }
+    .photo-frame:hover .photo img{
+        transform: scale(1.2);
+        transition: transform 2s;
+    }
+    
+    .photo-frame .photo{
+        overflow: hidden;
+    }
+    .photo-detail{
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        top: 0px;
+        display: none;
+    }
+    .photo-frame:hover .photo-detail{
+        display: block;
+    
+    }
+    .photo-detail h3{
+        color: tomato;
+        font-size: 3em;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .photo-detail p{
+        color: rgb(14, 233, 197);
+        padding: 5px;
+        font-size: 1.1em;
+        font-weight: 600;
+        text-align: center;
+    }
+    .upcomming-album{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* photo style end here=================================== */
+    
+    
+    
 
